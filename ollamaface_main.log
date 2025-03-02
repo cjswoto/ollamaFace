@@ -1,0 +1,266 @@
+2025-03-02 15:21:42 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:21:42 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:21:42 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:21:42 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:21:42 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:21:42 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:21:42 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:21:42 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:21:42 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:21:42 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\slackITPro.png
+2025-03-02 15:21:42 [INFO] __main__: Splash screen shown; scheduling removal in 2 seconds.
+2025-03-02 15:21:42 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:21:42 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:21:44 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:21:44 [INFO] __main__: Notebook tabs created. Home Config is active.
+2025-03-02 15:21:44 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:21:56 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:23:09 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:23:09 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:23:09 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:23:09 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:23:09 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:23:09 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:23:09 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:23:09 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:23:09 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:23:09 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\slackITPro.png
+2025-03-02 15:23:09 [INFO] __main__: Splash screen shown; scheduling removal in 5.0 seconds.
+2025-03-02 15:23:09 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:23:14 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:23:14 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:23:14 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:23:16 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:23:16 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:23:18 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:23:23 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:23:23 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:23:23 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:23:23 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:23:23 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:23:23 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:23:23 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:23:23 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:23:23 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:23:23 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\slackITPro.png
+2025-03-02 15:23:23 [INFO] __main__: Splash screen shown; scheduling removal in 5.0 seconds.
+2025-03-02 15:23:23 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:23:25 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:24:08 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:24:08 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:24:08 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:24:08 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:24:08 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:24:08 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:08 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:24:08 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:24:08 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:08 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\slackITPro.png
+2025-03-02 15:24:08 [INFO] __main__: Splash screen shown; scheduling removal in 5.0 seconds.
+2025-03-02 15:24:08 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:24:13 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:24:13 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:24:13 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:24:15 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:24:15 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:24:23 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:24:25 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:24:25 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:24:25 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:24:25 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:24:25 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:24:25 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:25 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:24:25 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:24:25 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:25 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\slackITPro.png
+2025-03-02 15:24:25 [INFO] __main__: Splash screen shown; scheduling removal in 5.0 seconds.
+2025-03-02 15:24:25 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:24:30 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:24:30 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:24:30 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:24:33 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:24:33 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:24:36 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:24:53 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:24:53 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:24:53 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:24:53 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:24:53 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:24:53 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:53 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:24:53 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:24:53 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:53 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:24:53 [INFO] __main__: Splash screen shown; scheduling removal in 5.0 seconds.
+2025-03-02 15:24:53 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:24:58 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:24:58 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:24:58 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:25:00 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:25:00 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:25:03 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:25:22 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:25:22 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:25:22 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:25:22 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:25:22 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:25:22 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:25:22 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:25:22 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:25:22 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:25:22 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:25:22 [INFO] __main__: Splash screen shown; scheduling removal in 5.0 seconds.
+2025-03-02 15:25:22 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:25:27 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:25:27 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:25:27 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:25:30 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:25:30 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:25:31 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:25:41 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:25:41 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:25:41 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:25:41 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:25:41 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:25:41 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:25:41 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:25:41 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:25:41 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:25:41 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:25:41 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:25:41 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:25:43 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:25:43 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:25:43 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:25:45 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:25:45 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:25:47 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:26:05 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:26:05 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:26:05 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:26:05 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:26:05 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:26:05 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:05 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:26:05 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:26:05 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:05 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:05 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:26:05 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:26:07 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:26:07 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:26:07 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:26:09 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:26:09 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:26:20 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:26:20 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:26:21 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:26:21 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:26:21 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:26:21 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:21 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:26:21 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:26:21 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:21 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:21 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:26:21 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:26:22 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:26:35 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:26:35 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:26:35 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:26:35 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:26:35 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:26:35 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:35 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:26:35 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:26:35 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:35 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:35 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:26:35 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:26:37 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:26:45 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:26:45 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:26:45 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:26:45 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:26:45 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:26:45 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:45 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:26:45 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:26:45 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:45 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:26:45 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:26:45 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:26:47 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:26:47 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:26:47 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:26:49 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:26:50 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:26:50 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:27:00 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:27:00 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:27:00 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:27:00 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:27:00 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:27:00 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:27:00 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:27:00 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:27:00 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:27:00 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:27:00 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:27:00 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:27:02 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:28:17 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:28:17 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:28:17 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:28:17 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:28:17 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:28:17 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:28:17 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:28:17 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:28:17 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:28:17 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:28:17 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:28:17 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:28:19 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:28:19 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:28:19 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:28:21 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:28:21 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:28:23 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:28:28 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:28:28 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:28:28 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:28:28 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:28:28 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:28:28 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:28:28 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:28:28 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:28:28 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:28:28 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:28:28 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:28:28 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:28:30 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:28:30 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:28:30 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:28:33 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:28:33 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:28:39 [INFO] __main__: Main event loop has ended. Exiting application.
+2025-03-02 15:51:24 [INFO] __main__: ==== Starting OllamaFace main.py ====
+2025-03-02 15:51:24 [INFO] __main__: Creating main Tk window with ttkbootstrap theme='darkly'.
+2025-03-02 15:51:24 [INFO] __main__: Instantiating OllamaFaceApp.
+2025-03-02 15:51:24 [INFO] __main__: Initializing OllamaFaceApp...
+2025-03-02 15:51:24 [INFO] __main__: Main window created with 1200x800 geometry.
+2025-03-02 15:51:24 [INFO] __main__: Window icon set from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:51:24 [INFO] __main__: Displaying splash screen...
+2025-03-02 15:51:24 [INFO] __main__: Creating splash screen frame.
+2025-03-02 15:51:24 [INFO] __main__: Loaded top image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:51:24 [INFO] __main__: Loaded splash image from: C:\Users\cjswo\PycharmProjects\OllamaFace\resources\Icon.png
+2025-03-02 15:51:24 [INFO] __main__: Splash screen shown; scheduling removal in 2.0 seconds.
+2025-03-02 15:51:24 [INFO] __main__: Starting main Tkinter event loop.
+2025-03-02 15:51:26 [INFO] __main__: Destroying splash screen frame.
+2025-03-02 15:51:26 [INFO] __main__: Creating main Notebook (tabs)...
+2025-03-02 15:51:26 [INFO] __main__: Adding 'Home Config' tab (Wizard).
+2025-03-02 15:51:28 [INFO] __main__: Adding 'OllamaGUI' tab.
+2025-03-02 15:51:28 [INFO] __main__: Main UI built; Home Config tab is active.
+2025-03-02 15:51:47 [INFO] __main__: Main event loop has ended. Exiting application.

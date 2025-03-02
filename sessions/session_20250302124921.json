@@ -1,0 +1,17 @@
+{
+  "id": "session_20250302124921",
+  "title": "What is a cat?",
+  "model": "everythinglm:latest",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is a cat?"
+    },
+    {
+      "role": "assistant",
+      "content": "A cat is a small, furry domesticated animal known for its distinctive features and playful nature. Cats have been adored by humans for thousands of years and are popular pets due to their affectionate behaviors and independent streak. They come in various breeds, such as Persian, Siamese, and Maine Coon, and can have different coat colors like tabby or calico. Cats possess a unique ability to purr, which is produced by their laryngeal muscles and serves as both a way of communication and an expression of contentment. They are skilled hunters with retractable claws, allowing them to catch prey and maintain balance, and have whiskers that aid in navigation and sensing their surroundings. Cats also possess a specialized hunting technique called \"ambush\" where they remain still and wait for prey before making a swift attack. Overall, cats bring joy and companionship into people's lives while serving as valuable rodent control agents."
+    }
+  ],
+  "created_at": "2025-03-02 12:49:21",
+  "updated_at": "2025-03-02 13:51:13"
+}

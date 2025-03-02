@@ -1,0 +1,17 @@
+{
+  "id": "session_20250302124913",
+  "title": "What is a Dog?",
+  "model": "everythinglm:latest",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is a Dog?"
+    },
+    {
+      "role": "assistant",
+      "content": "A dog is a canine species that has been domesticated by humans for thousands of years. Dogs are known for their loyalty, affectionate nature, and their ability to understand human language and emotions. They have been bred for various purposes such as companionship, hunting, protection, and assistance. Dogs come in various breeds with distinct physical characteristics, sizes, and temperaments. Dogs are important members of many families and play significant roles in our lives, bringing joy, companionship, and security to their owners."
+    }
+  ],
+  "created_at": "2025-03-02 12:49:13",
+  "updated_at": "2025-03-02 13:52:16"
+}
