@@ -53,10 +53,21 @@ class OllamaSetupWizard:
             "<Configure>",
             lambda event: self.main_canvas.configure(scrollregion=self.main_canvas.bbox("all"))
         )
-        self.main_canvas.create_window((0, 0), window=self.main_frame, anchor="nw")
+
+        # ADDED: store create_window in self.main_window
+        self.main_window = self.main_canvas.create_window((0, 0), window=self.main_frame, anchor="nw")
+
         self.main_canvas.configure(yscrollcommand=self.v_scrollbar.set)
         self.main_canvas.pack(side="left", fill="both", expand=True)
         self.v_scrollbar.pack(side="right", fill="y")
+
+        # ADDED: define on_canvas_resize
+        def on_canvas_resize(event):
+            # Force main_frame to match the canvas width
+            self.main_canvas.itemconfig(self.main_window, width=event.width)
+
+        # ADDED: bind <Configure>
+        self.main_canvas.bind("<Configure>", on_canvas_resize)
 
         # Build the one-screen UI sections.
         self.build_ui()
@@ -67,13 +78,13 @@ class OllamaSetupWizard:
     def build_ui(self):
         # ----- Welcome Section -----
         welcome_frame = ttk.LabelFrame(self.main_frame, text="Welcome", padding=10)
-        welcome_frame.pack(fill=tk.X, pady=5)
+        welcome_frame.pack(fill=tk.BOTH, expand=True, pady=5)
         header = ttk.Label(welcome_frame, text="Welcome to the Ollama Setup", font=("Segoe UI", 18, "bold"))
         header.pack(pady=(0, 10))
         desc = ttk.Label(welcome_frame, text=(
             "This process will guide you through setting up Ollama on your system and downloading models for local AI inference.\n\n"
             "Ollama allows you to run large language models locally on your computer, providing privacy and offline access."
-        ), font=("Segoe UI", 11), wraplength=700, justify="center")
+        ), font=("Segoe UI", 11), wraplength=2000, justify="center")
         desc.pack()
         system_label = ttk.Label(welcome_frame, text=f"Detected System: {self.system}", font=("Segoe UI", 11))
         system_label.pack(anchor=tk.W, pady=(10, 0))
@@ -101,14 +112,20 @@ class OllamaSetupWizard:
         self.install_action_button = ttk.Button(install_frame, text="", command=self.install_or_start)
         self.install_action_button.pack(pady=(5, 0))
 
+        # Store install_frame so references work
+        self.install_frame = install_frame
+
         # ----- Model Download Section -----
         model_frame = ttk.LabelFrame(self.main_frame, text="Model Download", padding=10)
         model_frame.pack(fill=tk.BOTH, pady=5)
         self.model_step_label = ttk.Label(model_frame, text="Select models to download", font=("Segoe UI", 11))
         self.model_step_label.pack(pady=(0, 5))
-        # Create a scrollable area for model checkboxes.
-        model_canvas = tk.Canvas(model_frame, bg="#2b2b2b", highlightthickness=0)
-        model_scrollbar = ttk.Scrollbar(model_frame, orient="vertical", command=model_canvas.yview)
+
+        checkbox_container = ttk.Frame(model_frame)
+        checkbox_container.pack(fill=tk.BOTH, expand=True)
+
+        model_canvas = tk.Canvas(checkbox_container, bg="#2b2b2b", highlightthickness=0)
+        model_scrollbar = ttk.Scrollbar(checkbox_container, orient="vertical", command=model_canvas.yview)
         self.model_scrollable_frame = ttk.Frame(model_canvas)
         self.model_scrollable_frame.bind(
             "<Configure>",
@@ -156,6 +173,7 @@ class OllamaSetupWizard:
         self.model_log = scrolledtext.ScrolledText(model_frame, height=6, font=("Consolas", 10),
                                                    bg="#2b2b2b", fg="#ffffff", wrap=tk.WORD)
         self.model_log.pack(fill=tk.BOTH, expand=True, pady=10)
+
         self.download_button = ttk.Button(model_frame, text="Download Selected Models",
                                           command=self.download_models, style="primary.TButton", width=25)
         self.download_button.pack(pady=5)
@@ -225,8 +243,8 @@ class OllamaSetupWizard:
                 with open('/proc/meminfo', 'r') as f:
                     mem_info = f.read()
                 total_mem = int(
-                    [line for line in mem_info.split('\n') if 'MemTotal' in line][0].split(':')[1].strip().split(' ')[
-                        0]) / (1024 ** 2)
+                    [line for line in mem_info.split('\n') if 'MemTotal' in line][0].split(':')[1].strip().split(' ')[0]
+                ) / (1024 ** 2)
                 ram_gb = total_mem
             elif self.system == "Darwin":
                 output = subprocess.check_output(['sysctl', 'hw.memsize']).decode().strip()
@@ -261,7 +279,9 @@ class OllamaSetupWizard:
 
         self.update_prereq_step("Verifying Ollama installation")
         self.check_ollama_installation()
+
         self.update_prereq_step("Prerequisites check completed")
+        self.install_or_start()
 
     def check_ollama_installation(self):
         try:

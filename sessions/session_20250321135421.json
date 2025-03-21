@@ -1,0 +1,17 @@
+{
+  "id": "session_20250321135421",
+  "title": "Session 2025-03-21 13:54",
+  "model": "phi3:latest",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Search for information on cats"
+    },
+    {
+      "role": "assistant",
+      "content": "Question: What is a common trait among many domestic cats regarding their reaction to catnip?\n\nAnswer: Many domestic cats are sensitive to catnip, with about 50% to 70% of them showing a euphoric and playful response when exposed to it. This sensitivity is determined by genetics and the active ingredient in catnip, nepetalactone, triggers this reaction as it mimics pheromones influencing behavior for a brief period."
+    }
+  ],
+  "created_at": "2025-03-21 13:54:21",
+  "updated_at": "2025-03-21 13:54:52"
+}
