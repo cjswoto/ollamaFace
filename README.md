@@ -45,6 +45,8 @@ for the Chat Interface to function properly. Please visit:
     https://ollama.com
 for installation instructions.
 
+**   The Setup Wizard in this application will verify the installation and prompt you to install or start Ollama if necessary.
+
 Installation
 ------------
 1. Clone the Repository:
@@ -56,7 +58,7 @@ Installation
 
 3. Install Ollama:
    Follow the instructions at https://ollama.com to install Ollama on your system.
-   The Setup Wizard in this application will verify the installation and prompt you to install or start Ollama if necessary.
+
 
 Usage
 -----
