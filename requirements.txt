@@ -1,0 +1,6 @@
+requests
+faiss-cpu
+sentence-transformers
+duckduckgo_search
+numpy
+ttkbootstrap
