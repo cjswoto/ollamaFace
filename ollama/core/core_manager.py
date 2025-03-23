@@ -3,7 +3,7 @@ from . import api
 from . import search
 from . import session as session_manager
 from local_retriever import search_index
-from kb_manager import load_existing_index
+from kb.kb_manager import load_existing_index
 
 
 class CoreManager:

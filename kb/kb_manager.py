@@ -7,9 +7,9 @@ from local_retriever import build_index_from_folder, save_index, load_index
 
 # Define paths (modify as needed).
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-KB_FOLDER = os.path.join(BASE_DIR, "local_kb")
-INDEX_FILE = os.path.join(BASE_DIR, "faiss_index.index")
-METADATA_FILE = os.path.join(BASE_DIR, "kb_documents.json")
+KB_FOLDER = os.path.join(BASE_DIR, "../local_kb")
+INDEX_FILE = os.path.join(BASE_DIR, "../faiss_index.index")
+METADATA_FILE = os.path.join(BASE_DIR, "../kb_documents.json")
 
 def ensure_kb_folder():
     if not os.path.exists(KB_FOLDER):
