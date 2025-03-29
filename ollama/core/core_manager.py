@@ -1,10 +1,13 @@
+# core_manager.py
+
 import time
 from . import api
 from . import search
 from . import session as session_manager
-from local_retriever import search_index
-from kb.kb_manager import load_existing_index
 
+
+# Removed: from local_retriever import search_index
+# Removed: from kb.kb_manager import load_existing_index
 
 class CoreManager:
     def __init__(self):
@@ -21,9 +24,11 @@ class CoreManager:
         self.current_session = None
         self.sessions = session_manager.load_sessions()
 
-        # Load the persistent FAISS index (and associated chunks/metadata) from disk.
-        # This index is built and saved by the KB Manager.
-        self.kb_index, self.kb_chunks, self.kb_metadata = load_existing_index()
+        # Local KB retrieval has been disabled.
+        # If you need local KB retrieval later, you could load your FAISS index, chunks, and metadata here.
+        self.kb_index = None
+        self.kb_chunks = []
+        self.kb_metadata = []
 
     def get_models(self):
         return api.get_models(self.ollama_url)
@@ -44,37 +49,9 @@ class CoreManager:
             search_results = search_result_data.get("results")
             self.search_debug_info = search_result_data.get("debug")
 
-        # 2. Local KB retrieval from persistent index.
-        if with_local_kb:
-            if self.kb_index is None or not self.kb_chunks:
-                kb_debug_info = "No persistent KB index available."
-            else:
-                start_time = time.time()
-                # Retrieve top 3 matching chunks; note that search_index returns (chunk, distance, metadata)
-                local_retrieval = search_index(
-                    query=message,
-                    index=self.kb_index,
-                    chunks=self.kb_chunks,
-                    metadata=self.kb_metadata,
-                    top_k=3
-                )
-                elapsed = time.time() - start_time
-                if local_retrieval:
-                    local_results = "\n".join([f"Chunk: {chunk}" for chunk, _, _ in local_retrieval])
-                    # Extract unique document names from metadata.
-                    doc_names = {meta.get("filename", "Unknown") for _, _, meta in local_retrieval}
-                    kb_debug_info = (
-                        f"KB retrieval took {elapsed:.2f} seconds. "
-                        f"Retrieved {len(local_retrieval)} chunks from: {', '.join(doc_names)}"
-                    )
-                else:
-                    kb_debug_info = f"KB retrieval took {elapsed:.2f} seconds. No relevant KB content found."
-
-        # Save KB debug info only if enabled.
-        if self.show_kb_debug:
-            self.kb_debug_info = kb_debug_info
-        else:
-            self.kb_debug_info = ""
+        # 2. Local KB retrieval is disabled.
+        kb_debug_info = "Local KB retrieval disabled."
+        # (If enabled in the future, you would call search_index here.)
 
         # 3. Build the prompt.
         prompt = message
@@ -82,7 +59,7 @@ class CoreManager:
             prompt = f"""Question: {message}
 
 Local Knowledge Context:
-{local_results or "No relevant KB results."}
+{local_results or "No local KB results."}
 
 Web Search Results:
 {search_results or "No web search results."}
@@ -93,7 +70,7 @@ Please answer the question based on the provided context. If the context isn’t
         return {
             **response,
             "search_results": search_results,
-            "kb_debug_info": self.kb_debug_info
+            "kb_debug_info": kb_debug_info
         }
 
     def new_session(self):
